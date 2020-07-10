@@ -8,7 +8,7 @@ from allauth.account.adapter import get_adapter
 from allauth.account.utils import setup_user_email
 from rest_framework import serializers
 from rest_auth.serializers import PasswordResetSerializer
-from home.models import CustomText, HomePage, Testnbvnbvnv
+from home.models import CustomText, HomePage, Testhghg, Testnbvnbvnv
 
 User = get_user_model()
 
@@ -87,4 +87,10 @@ class PasswordSerializer(PasswordResetSerializer):
 class TestnbvnbvnvSerializer(serializers.ModelSerializer):
     class Meta:
         model = Testnbvnbvnv
+        fields = "__all__"
+
+
+class TesthghgSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Testhghg
         fields = "__all__"
