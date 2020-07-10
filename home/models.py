@@ -41,3 +41,8 @@ class Testnbvnbvnv(models.Model):
 class Testhghg(models.Model):
     "Generated Model"
     hgfhgfh = models.BigIntegerField()
+
+
+class Testsdfhws(models.Model):
+    "Generated Model"
+    efgtqaera = models.BigIntegerField()
